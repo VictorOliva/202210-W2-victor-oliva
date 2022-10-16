@@ -1,0 +1,22 @@
+:root {
+    background-color: #5169a7;
+    font-family: lato, 'Lato', Lato, serif;
+}
+
+header {
+    display: flex;
+    background-color: #5169a7;
+    font-size: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    background-color: #d1bead;
+}
+div {
+    display: flex;
+    background-color: #d09d72;
+    justify-content: space-between;
+    align-items: center;
+}
