@@ -45,6 +45,22 @@ label:nth-of-type(2n + 1) {
     font-weight: 900;
 }
 
+[id='line1']::after {
+    content: ' ✖';
+}
+
+[id='line2']::after {
+    content: ' ✖';
+}
+
+[id='line3']::after {
+    content: ' ✖';
+}
+
+section :hover {
+    color: #d75f00;
+}
+
 div {
     display: flex;
     background-color: var(--color-tertiary);
