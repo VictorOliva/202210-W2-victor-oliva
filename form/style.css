@@ -46,9 +46,18 @@ div {
     font-weight: 900;
 }
 
+button {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+}
+
 div:nth-of-type(2n) {
     background-color: var(--color-secondary);
 }
+
 footer {
     text-align: center;
     margin: 30px;
