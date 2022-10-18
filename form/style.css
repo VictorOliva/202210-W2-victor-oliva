@@ -30,8 +30,19 @@ div {
     background-color: var(--color-tertiary);
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px;
+    padding: 0px 5px;
     font-size: 120%;
+}
+
+input {
+    background-color: var(--color-secondary);
+    border: none;
+    border-bottom: #8d4ec4 1px solid;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 [id='form'] {
@@ -42,11 +53,17 @@ div {
     justify-content: flex-start;
 }
 
+[id='title'] {
+    font-weight: 900;
+    font-size: 110%;
+}
+
 [id='p2'] {
     font-weight: 900;
 }
 
 button {
+    margin-top: 15px;
     background-color: var(--color-primary);
     color: white;
     padding: 10px 10px;
